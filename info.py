@@ -13,9 +13,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '20678315'))
-API_HASH = environ.get('API_HASH', '5522342962f32f8fb46903effb5ce41f')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6350375829:AAETurDXHwvaKNFd3Iz8rhwrJOiPatJk-fk")
+API_ID = int(environ.get('API_ID', '22194589'))
+API_HASH = environ.get('API_HASH', '83048af5aa777d121ba46d96f86a22df')
+BOT_TOKEN = environ.get('BOT_TOKEN', "7185419881:AAGqKJcJR40xsemEsJdfh7mOEiDJfXkXqRk")
 TIMEZONE = environ.get("TIMEZONE", "Asia/Kolkata")
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 150))
@@ -67,7 +67,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "7")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/thewarriorsreal')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+QxO4tzc0qNszNGI1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/defenderofthemultiverse')
 MSG_ALRT = environ.get('MSG_ALRT', 'The Warriors Real')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001424329361))
